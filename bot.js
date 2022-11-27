@@ -8,7 +8,8 @@ dotenv.config();
 
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
 
-const users = [process.env.TELEGRAM_BOT_OWNER, "kay_day"]
+const users = process.env.TELEGRAM_USERS.split(' ');
+users.push(process.env.TELEGRAM_BOT_OWNER);
 
 
 bot.start((ctx) => {
