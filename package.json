@@ -9,10 +9,12 @@
   "author": "https://github.com/akochnov",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/translate": "^7.0.5",
     "axios": "^1.2.0",
     "dotenv": "^16.0.3",
     "querystring": "^0.2.1",
-    "telegraf": "^4.11.2"
+    "telegraf": "^4.11.2",
+    "translitit-latin-to-mkhedruli-georgian": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^8.28.0"
